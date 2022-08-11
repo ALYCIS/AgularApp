@@ -1,0 +1,8 @@
+#+TITLE: Note pour Angular
+#+AUTOR: ALY
+
+
+
+* Introduction:
+  Ceci est un projet sur Angular, il s'agit de la création d'une page, permettant
+  d'afficher des statistiques sur les données.
