@@ -16,5 +16,23 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <app-navbar></app-navbar>
-<app-sidebar></app-sidebar>
+
+<div class="div container-fluid">
+  <div class="div row" id="mainContent">
+
+    <app-sidebar class="col-sm-3"></app-sidebar>
+
+    <div class="col-sm-9" id="dashboard">
+      <p> Contenu pour la colonne</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 
+  "../node_modules/jquery/dist/jquery.min.js",
+              "../node_modules/popper.js/dist/umd/popper.min.js",
+              "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "../node_modules/chart.js/dist/chart.min.js" -->
 <router-outlet></router-outlet>
