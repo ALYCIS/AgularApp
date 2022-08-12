@@ -27,8 +27,8 @@
       class="col-sm-3 col-md-2 d-none d-sm-block sideBar">
     </app-sidebar>
 
-    <div class="col-sm-9" id="dashboard">
-      <p> Contenu pour la colonne</p>
+    <div class="col-sm-9 ml-sm-auto col-md-10 pt-3" role="main" id="dashboard">
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
@@ -40,4 +40,4 @@
               "../node_modules/popper.js/dist/umd/popper.min.js",
               "../node_modules/bootstrap/dist/js/bootstrap.min.js",
               "../node_modules/chart.js/dist/chart.min.js" -->
-<router-outlet></router-outlet>
+

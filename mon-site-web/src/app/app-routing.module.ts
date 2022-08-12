@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { SectionHealthComponent } from './sections/section-health/section-health.component';
+import { SectionOrdersComponent } from './sections/section-orders/section-orders.component';
+import { SectionSalesComponent } from './sections/section-sales/section-sales.component';
 
 const routes: Routes = [
-  {path:'sidebar',component:SidebarComponent},
-  {path:'navbar',component:NavbarComponent}
+  {path:'sales',component:SectionSalesComponent},
+  {path:'health',component:SectionHealthComponent},
+  {path:'orders',component:SectionOrdersComponent},
+  {path:'',redirectTo:'/sales', pathMatch:'full'}
 ];
 
 @NgModule({
