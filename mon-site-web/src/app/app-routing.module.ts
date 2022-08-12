@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'sidebar',component:SidebarComponent},
+  {path:'navbar',component:NavbarComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
