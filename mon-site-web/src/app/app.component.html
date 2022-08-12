@@ -15,12 +15,17 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<app-navbar></app-navbar>
+<app-navbar id="navbar" 
+  class="navbar navbar-dark fixed-top bg-dark">
+</app-navbar>
 
-<div class="div container-fluid">
-  <div class="div row" id="mainContent">
+<br> <br> <br>
+<div class="container-fluid">
+  <div class="row" id="mainContent">
 
-    <app-sidebar class="col-sm-3"></app-sidebar>
+    <app-sidebar id="sideBar" 
+      class="col-sm-3 col-md-2 d-none d-sm-block sideBar">
+    </app-sidebar>
 
     <div class="col-sm-9" id="dashboard">
       <p> Contenu pour la colonne</p>
